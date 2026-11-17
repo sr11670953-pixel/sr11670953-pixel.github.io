@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Santiago Ramírez Flor. Estudiante de desarrollo de software en Cali, con enfoque en backend. Proyectos, habilidades y contacto.">
+<title>Portafolio de Santiago Ramírez Flor</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="page">
+
+  <header class="top">
+    <a class="marca mono" href="#inicio">Santiago Ramírez Flor</a>
+    <nav class="mono" aria-label="Secciones">
+      <a href="#proyectos">Proyectos</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#formacion">Formación</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro" id="inicio">
+      <div class="intro-grid">
+        <div>
+          <p class="status mono">Cali, Colombia</p>
+          <h1>Santiago Ramírez Flor</h1>
+          <p class="lead">Estudio cuarto semestre de Tecnología en Desarrollo de Sistemas de Información y de Software en la Universidad Santiago de Cali. Me inclino por el backend: en mi proyecto más completo construyo la API y la base de datos con Node.js, TypeScript y PostgreSQL.</p>
+          <p class="bio">Al terminar la carrera quiero especializarme en <strong class="seg">ciberseguridad</strong>, y estoy haciendo el curso de Cisco Networking Academy. Me interesa sobre todo cómo se protege una aplicación desde el backend: autenticación, manejo de datos y claves fuera del código.</p>
+          <div class="actions">
+            <a class="btn solid" href="https://github.com/sr11670953-pixel" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn" href="Hoja_de_vida_Santiago_Ramirez_Flor.pdf" target="_blank" rel="noopener">Hoja de vida (PDF)</a>
+          </div>
+        </div>
+        <figure class="foto">
+          <img src="foto.jpg" alt="Santiago Ramírez Flor tomando una foto con una cámara" width="720" height="900">
+        </figure>
+      </div>
+    </section>
+
+    <section class="block" id="proyectos">
+      <h2>Proyectos</h2>
+      <div>
+        <article class="project">
+          <h3>Fitness Leaderboard</h3>
+          <p>Plataforma de fitness donde los usuarios suman puntos por su actividad y compiten en un ranking. Proyecto en pareja: construyo el backend (API REST y base de datos) y mi compañero el frontend en Vue 3.</p>
+          <div class="meta mono">
+            <span class="tag">Node.js</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">Express</span>
+            <span class="tag">PostgreSQL</span>
+            <a class="note" href="https://github.com/sr11670953-pixel/fitness-leaderboard" target="_blank" rel="noopener" aria-label="Ver código de Fitness Leaderboard">Ver código</a>
+          </div>
+        </article>
+        <article class="project">
+          <h3>World's Greatest Conqueror</h3>
+          <p>Juego de estrategia por turnos estilo Risk para 4 jugadores con interfaz gráfica: refuerzos, batallas con dados, movilización de tropas y victoria al conquistar el mapa. Incluye una prueba automática que juega 20 partidas completas.</p>
+          <div class="meta mono">
+            <span class="tag">Java</span>
+            <span class="tag">Swing</span>
+            <span class="tag">POO</span>
+            <span class="tag">Pruebas</span>
+            <a class="note" href="https://github.com/sr11670953-pixel/world-conqueror" target="_blank" rel="noopener" aria-label="Ver código de World's Greatest Conqueror">Ver código</a>
+          </div>
+        </article>
+        <article class="project">
+          <h3>App meteorológica</h3>
+          <p>Panel web que muestra el clima actual según tu ubicación y avisa cuando la temperatura pasa los límites que defines. Incluye pronóstico en gráfica y conversor de unidades.</p>
+          <p class="nota-seg"><span class="seg mono">Seguridad</span> La clave de la API se maneja fuera del código.</p>
+          <div class="meta mono">
+            <span class="tag">JavaScript</span>
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">API OpenWeather</span>
+            <span class="tag">Chart.js</span>
+            <a class="note" href="https://github.com/sr11670953-pixel/app-meteorologica" target="_blank" rel="noopener" aria-label="Ver código de App meteorológica">Ver código</a>
+          </div>
+        </article>
+        <article class="project">
+          <h3>Personalizador de armas</h3>
+          <p>Programa de consola para equipar un arma, cambiarle piezas (cañón, culata, mira, munición), disparar y recargar. Lo hice para practicar herencia, clases abstractas e interfaces.</p>
+          <div class="meta mono">
+            <span class="tag">Java</span>
+            <span class="tag">POO</span>
+            <a class="note" href="https://github.com/sr11670953-pixel/personalizador-armas" target="_blank" rel="noopener" aria-label="Ver código de Personalizador de armas">Ver código</a>
+          </div>
+        </article>
+        <p class="more mono">Más ejercicios de la carrera en <a href="https://github.com/sr11670953-pixel/talleres-poo-java" target="_blank" rel="noopener">talleres-poo-java</a></p>
+      </div>
+    </section>
+
+    <section class="block" id="habilidades">
+      <h2>Habilidades</h2>
+      <dl class="rows">
+        <div class="row">
+          <dt class="mono">Backend</dt>
+          <dd>Node.js, TypeScript, Express, API REST</dd>
+        </div>
+        <div class="row">
+          <dt class="mono">Bases de datos</dt>
+          <dd>PostgreSQL, SQL</dd>
+        </div>
+        <div class="row">
+          <dt class="mono">Lenguajes</dt>
+          <dd>Java, JavaScript <small>Programación orientada a objetos, interfaces gráficas con Swing, consumo de APIs</small></dd>
+        </div>
+        <div class="row">
+          <dt class="mono">Básico</dt>
+          <dd>Python, C, HTML, CSS <small>Aprendidos en la carrera</small></dd>
+        </div>
+        <div class="row">
+          <dt class="mono">Herramientas</dt>
+          <dd>Git, GitHub, VS Code</dd>
+        </div>
+        <div class="row">
+          <dt class="mono">Inglés</dt>
+          <dd>B1 <small>Leo documentación técnica sin dificultad</small></dd>
+        </div>
+      </dl>
+    </section>
+
+    <section class="block" id="formacion">
+      <h2>Formación</h2>
+      <dl class="rows">
+        <div class="row">
+          <dt class="mono">En curso</dt>
+          <dd><strong>Tecnología en Desarrollo de Sistemas de Información y de Software</strong> <small>Universidad Santiago de Cali, cuarto semestre</small></dd>
+        </div>
+        <div class="row">
+          <dt class="mono seg">En curso</dt>
+          <dd><strong>Curso de ciberseguridad</strong> <small>Cisco Networking Academy</small></dd>
+        </div>
+      </dl>
+    </section>
+
+    <section class="block" id="contacto">
+      <h2>Contacto</h2>
+      <div>
+        <p class="contact-note">Busco prácticas donde aplicar lo aprendido y crecer en un equipo de desarrollo. Cada día aprendiendo más.</p>
+        <dl class="rows contact-rows">
+          <div class="row">
+            <dt class="mono">Correo</dt>
+            <dd class="copy-line"><a href="mailto:sr11670953@gmail.com">sr11670953@gmail.com</a><button class="copy" type="button" data-copy="sr11670953@gmail.com" aria-label="Copiar correo" title="Copiar correo"><svg class="ic-copy" viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><rect x="5" y="5" width="9" height="9" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M11 5V3.5A1.5 1.5 0 0 0 9.5 2h-6A1.5 1.5 0 0 0 2 3.5v6A1.5 1.5 0 0 0 3.5 11H5" fill="none" stroke="currentColor" stroke-width="1.5"/></svg><svg class="ic-ok" viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button></dd>
+          </div>
+          <div class="row">
+            <dt class="mono">Celular</dt>
+            <dd class="copy-line"><a href="tel:+573235121174">323 512 1174</a><button class="copy" type="button" data-copy="+57 323 512 1174" aria-label="Copiar número de celular" title="Copiar número"><svg class="ic-copy" viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><rect x="5" y="5" width="9" height="9" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M11 5V3.5A1.5 1.5 0 0 0 9.5 2h-6A1.5 1.5 0 0 0 2 3.5v6A1.5 1.5 0 0 0 3.5 11H5" fill="none" stroke="currentColor" stroke-width="1.5"/></svg><svg class="ic-ok" viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button></dd>
+          </div>
+          <div class="row">
+            <dt class="mono">WhatsApp</dt>
+            <dd><a href="https://wa.me/573235121174" target="_blank" rel="noopener">323 512 1174</a></dd>
+          </div>
+        </dl>
+        <p class="aviso-copia mono" id="aviso-copia" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="mono">
+    <span>Santiago Ramírez Flor</span>
+    <span>Cali, 2026</span>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
